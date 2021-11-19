@@ -1,0 +1,20 @@
+Maximum time
+142
+
+Minimum time
+49
+
+Average time
+66.18
+
+Standard Deviation
+13.402522150699847
+
+90th Percentile
+80.30000000000003
+
+95th Percentile
+93.0
+
+99th Percentile
+99.43000000000022
