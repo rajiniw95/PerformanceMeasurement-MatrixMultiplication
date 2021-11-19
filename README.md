@@ -20,5 +20,7 @@ The **parameters** used for this particualr run of the experiment are as follows
 ## Observations
 
 The cost of matrix multiplication function calls fluctuate wildly. 
+
 Probable cause: The experiment is run on a shared resource, where the operating system would schedule other processes on tavailable threads without regard to the structure of this particular application.
+
 The timer is called before and after each function call and other processes could be scheduled on the threads in between these three steps. 
